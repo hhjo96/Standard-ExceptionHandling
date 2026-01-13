@@ -8,7 +8,5 @@ import lombok.Getter;
 @Getter
 public class MemberLoginRequest {
 
-    @NotEmpty
-    @Size(min = 2, message = "이름을 확인해주세요.")
     private String name;
 }
