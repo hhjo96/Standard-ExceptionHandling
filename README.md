@@ -9,4 +9,21 @@
     - 동일한 이름이 존재하지 않으면: "사용 가능한 이름입니다." 반환 -> 완료
     - 이름이 비어 있거나 2글자 미만일 경우: 예외 발생 -> 완료
 
-    
+## 포스트맨 캡쳐
+- 로그인 가능(check, sign-up)
+![img_4.png](images/img_4.png) ![img_5.png](images/img_5.png)
+
+- 같은 이름으로 회원가입한 사람이 있는 경우(sign-up, check)
+![img.png](images/img.png)![img_1.png](images/img_1.png)
+
+
+- 이름 제한(빈칸, 1글자)
+![img_2.png](images/img_2.png)![img_3.png](images/img_3.png)
+
+
+- 나이 제한(18세미만)
+![img_6.png](images/img_6.png)
+
+
+- 회원 초과
+![img_7.png](images/img_7.png)

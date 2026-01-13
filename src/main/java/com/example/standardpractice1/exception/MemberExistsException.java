@@ -5,6 +5,6 @@ import org.springframework.http.HttpStatus;
 public class MemberExistsException extends ServiceException{
 
     public MemberExistsException(String message){
-        super(HttpStatus.CONFLICT, message);
+        super(ErrorCode.DUPLICATE_NAME, message, HttpStatus.CONFLICT);
     }
 }
